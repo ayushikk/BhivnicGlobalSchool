@@ -1,0 +1,60 @@
+<html><head>
+    <title>PLANETS</title>
+    <link rel="stylesheet" type="text/css" href="planetstyle3.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    <h1 class="animated infinite heartBeat">Something
+                        Amazing</h1>
+                </div>
+
+                <div class="menu">
+                    <a href="planetindex2.html">Home</a>
+                    <a href="planetindex3.html">Gallery</a>
+                    <a href="#">Contact</a>
+                    <a href="index.html">SchoolSite</a>
+                </div>
+            </nav>
+
+            <div id="progressbar"></div>
+            <div id="scrollpath"></div>
+
+            <div class="container">
+                <div class="row">
+                    <a href="earth.html"><img src="image/earth.jpg"></a>
+                    <a href="jupiter.html">  <img src="image/jupiter.jpg"></a>
+                </div>
+                <div class="row">
+                    <a href="mars.html"> <img src="image/mars.jpg"></a>
+                    <a href="venus.html">  <img src="image/venus.jpg"></a>
+
+                </div>
+                <div class="row">
+                    <a href="mercury.html"> <img src="image/mercury.jpg"></a>
+                    <a href="saturn.html"> <img src="image/saturn.jpg"></a>
+
+                </div>
+                <div class="row">
+                    <a href="neptune.html"><img src="image/Neptune.jpg"></a>
+                    <a href="uranus.html"><img src="image/Uranus.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalheight = document.body.scrollHeight - window.onscroll = function() {
+            let progressheight = (window.pageYOffset / totalheight) * 100;
+            progress.style.height = progressheight + "%";
+        }
+    </script>
+
+</body></html>

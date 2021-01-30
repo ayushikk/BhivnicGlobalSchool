@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!--NAVIGATION-->
+        <nav>
+            <img src="images/logo.jpg" class="imag" alt="logo">
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="mathsweb.html">NOTES</a></li>
+                <li><a href="planetindex1.html">SOME INTERESTING</a></li>
+                <li><a href="loginform.html">SIGNUP/LOGIN</a></li>
+            </ul>
+        </nav>
+        <div class="yes">
+            <div class="form">
+                <div class="btn-box">
+                    <div id="btn"></div>
+                    <button type="button" class="btntwo" onclick="login()">Log In</button>
+                    <button type="button" class="btntwo" onclick="register()">Register</button>
+                </div>
+                <div class="social-icons">
+                    <img src="images/fb.png">
+                    <img src="images/tw.png">
+                    <img src="images/gp.png">
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright &copy; 2020, Bhivnic Global Solutions</p>
+    </footer>
+    
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+
+    </script>
+
+</body>
+
+</html>

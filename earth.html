@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EARTH</title>
+    <link rel="stylesheet" type="text/css" href="earthstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <h1 class="animated infinite heartBeat">Something
+                    Amazing</h1>
+            </div>
+
+            <div class="menu">
+                <a href="planetindex2.html">Home</a>
+                <a href="planetindex3.html">Gallery</a>
+                <a href="#">Contact</a>
+                <a href="index.html">SchoolSite</a>
+            </div>
+        </nav>
+
+        <div id="progressbar"></div>
+        <div id="scrollpath"></div>
+
+        <section>
+            <h1>EARTH</h1>
+            <p>Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating estimation and other evidence, Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in about 365.25 days.<br>
+
+                Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth. The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth's orientation on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the largest and most massive of the four rocky planets.<br>
+
+                Earth's outer layer (lithosphere) is divided into several rigid tectonic plates that migrate across the surface over many millions of years. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also lakes, rivers and other fresh water, which all together constitute the hydrosphere. The majority of Earth's polar regions are covered in ice, including the Antarctic ice sheet and the sea ice of the Arctic ice pack. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.<br>
+            </p>
+            <h4><br>Interesting Facts:</h4>
+            <ul>
+                <li>The Earth’s rotation is gradually slowing.
+                    This deceleration is happening almost imperceptibly, at approximately 17 milliseconds per hundred years, although the rate at which it occurs is not perfectly uniform. This has the effect of lengthening our days, but it happens so slowly that it could be as much as 140 million years before the length of a day will have increased to 25 hours.</li>
+                <li>The Earth was once believed to be the centre of the universe.
+                    Due to the apparent movements of the Sun and planets in relation to their viewpoint, ancient scientists insisted that the Earth remained static, whilst other celestial bodies travelled in circular orbits around it. Eventually, the view that the Sun was at the centre of the universe was postulated by Copernicus, though this is also not the case.</li>
+                <li>Earth has a powerful magnetic field.
+                    This phenomenon is caused by the nickel-iron core of the planet, coupled with its rapid rotation. This field protects the Earth from the effects of solar wind.</li>
+                <li>There is only one natural satellite of the planet Earth.
+                    As a percentage of the size of the body it orbits, the Moon is the largest satellite of any planet in our solar system. In real terms, however, it is only the fifth largest natural satellite.</li>
+
+                <li>Earth is the only planet not named after a god.
+                    The other seven planets in our solar system are all named after Roman gods or goddesses. Although only Mercury, Venus, Mars, Jupiter and Saturn were named during ancient times, because they were visible to the naked eye, the Roman method of naming planets was retained after the discovery of Uranus and Neptune.</li>
+                <li>The Earth is the densest planet in the Solar System.
+                    This varies according to the part of the planet; for example, the metallic core is denser than the crust. The average density of the Earth is approximately 5.52 grams per cubic centimetre.</li>
+            </ul>
+
+        </section>
+
+    </div>
+
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalheight = document.body.scrollHeight - window.onscroll = function() {
+            let progressheight = (window.pageYOffset / totalheight) * 100;
+            progress.style.height = progressheight + "%";
+        }
+
+    </script>
+
+</body>
+
+</html>

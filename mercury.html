@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MERCURY</title>
+    <link rel="stylesheet" type="text/css" href="earthstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <h1 class="animated infinite heartBeat">Something
+                    Amazing</h1>
+            </div>
+
+            <div class="menu">
+                <a href="planetindex2.html">Home</a>
+                <a href="planetindex3.html">Gallery</a>
+                <a href="#">Contact</a>
+                <a href="index.html">SchoolSite</a>
+            </div>
+        </nav>
+
+        <div id="progressbar"></div>
+        <div id="scrollpath"></div>
+
+        <section>
+            <h1>MERCURY</h1>
+            <p>Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.<br>
+
+                Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°. This proximity to the Sun means the planet can only be seen near the western horizon after sunset or eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object, but is often far more difficult to observe than Venus. The planet telescopically displays the complete range of phases, similar to Venus and the Moon, as it moves in its inner orbit relative to Earth, which recurs over its synodic period of approximately 116 days.<br>
+
+                Mercury rotates in a way that is unique in the Solar System. It is tidally locked with the Sun in a 3:2 spin–orbit resonance, meaning that relative to the fixed stars, it rotates on its axis exactly three times for every two revolutions it makes around the Sun. As seen from the Sun, in a frame of reference that rotates with the orbital motion, it appears to rotate only once every two Mercurian years. An observer on Mercury would therefore see only one day every two Mercurian years.<br>
+
+            </p>
+            <h4><br>Interesting Facts:</h4>
+            <ul>
+                <li>Not only is Mercury the smallest planet, it is also shrinking!<br>
+
+                    In a very, very slow process, Mercury is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago (we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.
+
+                </li>
+                <li>Mercury has the most craters in the Solar System:<br>
+
+                    Because Mercury’s atmosphere is so weak, the planet has nothing to protect it against meteor impacts. This has filled its surface of crater impacts and has given Mercury a very similar look to our Moon.</li>
+                <li>The biggest crater in Mercury could fit Western Europe:<br>
+
+                    The Caloris Basin in Mercury is a huge crater left by a meteor impact that happened about 3.8 billion years ago. The crater is about 1,550 km (963 miles) in diameter, which would be enough to fit part of Europe from Portugal to Germany. Astronomers estimate the object that caused it was at least 100 km (62 miles) long.</li>
+                <li>Mercury orbits the Sun faster than any other planet:<br>
+
+                    The planet’s closeness to the Sun makes Mercury’s orbit shorter than those of any other planet in the Solar System. One year in Mercury is only about 88 Earth days. That is less than three months.
+                </li>
+
+                <li>Mercury was named after the Roman god of commerce:<br>
+
+                    Because Mercury’s orbit is so small, it seems like it’s moving faster in the sky than other planets. This is why the Romans named it after their fasted god, Mercury, who is sometimes also depicted as a quick messenger with a winged helmet. Mercury was also the god of commerce, finance, communication, and eloquence.</li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalheight = document.body.scrollHeight - window.onscroll = function() {
+            let progressheight = (window.pageYOffset / totalheight) * 100;
+            progress.style.height = progressheight + "%";
+        }
+
+    </script>
+
+</body>
+
+</html>
